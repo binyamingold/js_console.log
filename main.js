@@ -64,7 +64,7 @@ else{
 // אם התאריך הוא בין 20-30 לחודש אני אדפיס: the end
 // אם התאריך הוא 31 לחודש אני אדפיס : BOOM BOOM
 
-var day = 1;
+var day = 10;
 
 
 if (typeof(day) == 'string'){
@@ -73,16 +73,16 @@ if (typeof(day) == 'string'){
 if (day === 1){
     console.log("good month")
 }
-else if (day >= 2 || day < 10){
+else if (day >= 2 && day < 10){
     console.log("start work")
 }
 else if (day === 10){
     console.log("get salary")
 }
-else if (day >= 11 || day < 19){
+else if (day >= 11 && day < 19){
     console.log("BE HAPPY")
 }
-else if (day >= 20 || day <= 30){
+else if (day >= 20 && day <= 30){
     console.log("the end")
 }
 
